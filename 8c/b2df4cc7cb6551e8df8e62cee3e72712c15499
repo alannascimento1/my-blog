@@ -1,0 +1,25 @@
+index.html
+  s_93ea2ba7d2a721::t_6067b3eec1c16d 13,31-37
+posts/rack-mini-profiler-n1.html
+  s_93ea2ba7d2a721::t_7ab8237a16f5cf 13,44-50
+sobre.html
+  s_93ea2ba7d2a721::t_3b3b292ae150bb 1-39
+style.css
+  s_93ea2ba7d2a721::t_45049fb0951f35 48-55
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "8cb2df4cc7cb6551e8df8e62cee3e72712c15499",
+  "prompts": {},
+  "sessions": {
+    "s_93ea2ba7d2a721": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2568658a-6053-4988-9865-2dd6fa8a2213",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "alan <alan@kobana.com.br>"
+    }
+  }
+}

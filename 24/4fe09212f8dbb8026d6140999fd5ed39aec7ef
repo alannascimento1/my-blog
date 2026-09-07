@@ -1,0 +1,16 @@
+sobre.html
+  h_cf431ba2e9a343 18-24
+style.css
+  h_cf431ba2e9a343 56-60
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "244fe09212f8dbb8026d6140999fd5ed39aec7ef",
+  "prompts": {},
+  "humans": {
+    "h_cf431ba2e9a343": {
+      "author": "alan <alan@kobana.com.br>"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Identificando o N+1 com o rack-mini-profiler</title>
+<meta name="description" content="Primeiro vídeo do laboratório: como ler o painel do rack-mini-profiler e identificar o problema de query N+1 em uma aplicação Rails.">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header class="site"><div class="wrap">
+  <a class="brand" href="../index.html">Blog do Alan</a>
+  <nav><a href="../sobre.html">Sobre</a></nav>
+</div></header>
+
+<main><div class="wrap">
+  <a class="back" href="../index.html">voltar</a>
+  <p class="tag">Laboratório Rack Mini Profiler · #01</p>
+  <h1>Identificando o problema de query N+1</h1>
+  <time>Vídeo · série de estudo</time>
+
+  <div class="embed">
+    <iframe src="https://www.youtube.com/embed/AlrCOwHxMjQ"
+      title="Rack Mini Profiler: identificando query N+1"
+      loading="lazy"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+
+  <p>O <a href="https://github.com/MiniProfiler/rack-mini-profiler" target="_blank" rel="noopener">rack-mini-profiler</a>
+  é uma gem Rails que mostra, na própria página, onde cada requisição gasta o tempo: controller, view e cada
+  consulta ao banco.</p>
+
+  <p>Neste primeiro vídeo o foco é o <strong>problema de query N+1</strong>, que acontece quando uma consulta busca a lista
+  e cada item dispara uma consulta extra para o dado relacionado.</p>
+
+  <h2>O que o vídeo cobre</h2>
+  <p>Como ler o painel (badge, árvore de tempos e contador de consultas); onde o N+1 aparece e por que ele nasce
+  na view, já que o Active Record é preguiçoso; e a correção com <code>includes</code>, que faz a mesma
+  página de 50 posts cair de <strong>51 consultas para 2</strong>, ficando várias vezes mais rápida.</p>
+</div></main>
+
+<footer class="site"><div class="wrap">
+  <div class="foot-grid">
+    <div class="fi"><span class="k">GitHub</span><span class="v"><a href="https://github.com/alannascimento1" target="_blank" rel="noopener">alannascimento1</a></span></div>
+    <div class="fi"><span class="k">LinkedIn</span><span class="v"><a href="https://www.linkedin.com/in/alan-n-b1413512b/" target="_blank" rel="noopener">Alan Nascimento</a></span></div>
+    <div class="fi"><span class="k">Sobre</span><span class="v"><a href="../sobre.html">Informações e formação</a></span></div>
+    <div class="fi"><span class="k">CNPJ</span><span class="v">64.151.326/0001-00</span></div>
+  </div>
+  <div class="copy">&copy; Alan Nascimento</div>
+</div></footer>
+</body>
+</html>

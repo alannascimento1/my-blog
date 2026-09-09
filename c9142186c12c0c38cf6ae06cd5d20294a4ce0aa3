@@ -1,0 +1,18 @@
+index.html
+  h_cf431ba2e9a343 13
+posts/rack-mini-profiler-n1.html
+  h_cf431ba2e9a343 13
+sobre.html
+  h_cf431ba2e9a343 13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "c9142186c12c0c38cf6ae06cd5d20294a4ce0aa3",
+  "prompts": {},
+  "humans": {
+    "h_cf431ba2e9a343": {
+      "author": "alan <alan@kobana.com.br>"
+    }
+  }
+}

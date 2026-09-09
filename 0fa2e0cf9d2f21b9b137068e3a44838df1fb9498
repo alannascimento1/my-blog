@@ -1,0 +1,19 @@
+style.css
+  s_93ea2ba7d2a721::t_8ae4320e2beab0 49-54,57-58
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "0fa2e0cf9d2f21b9b137068e3a44838df1fb9498",
+  "prompts": {},
+  "sessions": {
+    "s_93ea2ba7d2a721": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2568658a-6053-4988-9865-2dd6fa8a2213",
+        "model": "unknown"
+      },
+      "human_author": "alan <alan@kobana.com.br>"
+    }
+  }
+}
